@@ -1,0 +1,53 @@
+{
+  "name": "flow-median",
+  "version": "0.0.0",
+  "description": "Reduce transform stream which calculates the median of streamed data.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "athan@nodeprime.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "athan@nodeprime.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kgryte/flow-median.git"
+  },
+  "keywords": [
+    "stream",
+    "writable",
+    "readable",
+    "transform",
+    "flow",
+    "flow.io",
+    "median",
+    "reduce",
+    "statistics",
+    "stats"
+  ],
+  "bugs": {
+    "url": "https://github.com/kgryte/flow-median/issues"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.5",
+    "flow-map": "~0.0.0"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "stream-spec": "~0.3.5"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ]
+}
