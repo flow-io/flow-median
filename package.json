@@ -1,6 +1,6 @@
 {
   "name": "flow-median",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Reduce transform stream which calculates the median of streamed data.",
   "author": {
     "name": "Athan Reines",
