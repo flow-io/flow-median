@@ -3,6 +3,8 @@ flow-median
 
 Reduce transform stream which returns the median value from a stream of numeric data.
 
+Note: in order to calculate the median exactly, all data must be buffered into memory. As a result, this stream acts as a sink. Use caution when applying the transform to large datasets.
+
 
 ## Installation
 
